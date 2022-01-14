@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Style-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mutation.css">
+    <!--Fontawesomy-->
+    <script src="https://kit.fontawesome.com/a0356a7e97.js" crossorigin="anonymous"></script>
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Twinkle+Star&display=swap" rel="stylesheet"> 
+<title>English Idiom Game</title>
+</head>
+<body>
+    <header>
+    <!---Navbar element-->
+    <nav class="nav">
+        <a href="#" class="nav__logo">
+            <img src="./assets/foxlogo.png" alt="" class="nav__logo-img">
+            English games
+        </a>
+        <div class="nav__menu" id="nav-menu">
+            <!---<ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link active-link">Home</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#about" class="nav__link">About me</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#idioms" class="nav__link">Idioms</a>
+                </li>
+
+                <a href="#footer" class="btn">Contact me</a>
+            </ul>
+
+            <div class="nav__close" id="nav-close">
+                <i class="fas fa-times"></i>
+            </div>--->
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+            <i class="fas fa-th-large"></i>
+        </div>
+    </nav>
+    </header>
+    <!----Canvas element-->
+    <section class="canvas_main">
+    <!----Button area-->
+    <button class="btn">Shuffle me</button>
+    <!----Card space-->
+    <div class="card-container">
+          <!--Kartka 
+         <div class="card">
+            <div class="content">
+            <h2>Idiom</h2>
+            <h3>Under the weather</h3>
+            </div>
+        </div>
+
+       
+        <div class="card">
+            <div class="content">
+            <h2>Idiom</h2>
+            <h3>Czuć się nie w sosie</h3> 
+           
+        </div>
+         -->
+
+    </div>
+</section>
+    <!----Result area-->
+<section class="result_area">
+    <h2>Score: <span class="result"></span></h2>
+</section>
+<section class="summary_area">
+    <div class="repeat_area">
+    <h1>Wypisz wszystkie poznane zwroty</h1>
+    <br/>
+    <input type="text" class="text" placeholder=""></input>
+    <button class="btn" id="btnMutated">Wklej</button>
+    
+    <br/>
+    <br/>
+        <div id="expressions"></div>
+    <br/>
+    </div>
+    <div class="diploma_area">
+        <h1>DYPLOM</h1>
+        <br/>
+        <br/>
+        <div class="diplomaText">
+            <h3>Wspaniane!</h3><br><br>
+            <h4>Udało Ci się osiagnąć <span class="result"></span> punktów!<br/>
+            Idziesz jak burza!</h4>
+        </div>
+        </div>
+</section>
+    <!----Footer-->
+ <script src="app.js"></script>   
+</body>
+</html>
